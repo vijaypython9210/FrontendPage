@@ -1,0 +1,9 @@
+item=['pen','paper','pencil','scale']
+cost=[25,20,10,15]
+stock=[10,20,20,15]
+zipped1=list(zip(item,cost,stock))
+print(zipped1)
+zipped2=tuple(zip(item,cost,stock))
+print(zipped2)
+zipped3=dict(zip(item,cost))
+print(zipped3)
