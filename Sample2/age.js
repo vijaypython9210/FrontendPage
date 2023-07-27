@@ -1,2 +1,2 @@
-var age=prompt('Enter your age')
+var age=prompt('Enter your age');
 console.log(age) 
